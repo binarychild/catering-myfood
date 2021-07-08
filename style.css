@@ -1,0 +1,37 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+.blue-color{
+    color:blueviolet;
+}
+
+.maintitle{
+    text-align: center;
+}
+
+section{
+    display:flex;
+}
+
+.share-width{
+    width: 50%;
+    padding: 20px;
+}
+
+.share-width img{
+    width:100%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding:10px 40px;
+    border-radius: 10em;
+}
