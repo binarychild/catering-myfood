@@ -19,6 +19,7 @@ h1{
 
 section{
     display:flex;
+    margin:150px;
 }
 
 .share-width{
@@ -38,7 +39,22 @@ section{
     color:white;
     font-weight: 700;
 }
-bg-image-setup{
+.bg-image-setup{
     background-image: url(images/shapes/Group\ 8450.png);
     background-repeat: no-repeat;
 }
+
+img{
+    width: 100%;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .aboutme{
+      text-align:end;
+  }
