@@ -1,34 +1,65 @@
 body{
 
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+  
 }
 
 h1{
     font-size: 50px;
 }
 
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:inset;
+    border-width: 5px;
+  }
+
+/* Diet section */
+
 .blue-color{
     color:blueviolet;
+}
+
+.gray-color{
+    color: gray;
 }
 
 .maintitle{
     text-align: center;
 }
 
-section{
+.flexible-container{
     display:flex;
-    margin:150px;
-}
+    margin-bottom: 100px;
+   }
+
+
 
 .share-width{
     width: 50%;
-    padding: 40px;
+    padding-top:10%;
+    padding-left: 10%;
 }
 
 .share-width img{
-    width:90%;
+    width: 90%; 
+    padding-left: 150px;  
+    padding-top: 25px;
+}
+
+#imgid {
+    width: 50%;
+}
+
+#aboutme{
+    width: 50%;
+    padding-top:10%;
+
 }
 
 .link-button{
@@ -39,22 +70,96 @@ section{
     color:white;
     font-weight: 700;
 }
-.bg-image-setup{
-    background-image: url(images/shapes/Group\ 8450.png);
+a{
+    padding-top: 50px;
+}
+.image-over-info{
+    
+    background-image: url(images/shapes/Frame\ 58.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+ 
+   
+    
 }
 
-img{
-    width: 100%;
-}
+/* recepies section work*/
 
-/* Container holding the image and the text */
-.container {
-    position: relative;
+.my-recipies{
+    display:flex;    
     text-align: center;
-    color: white;
+    margin-bottom: 50px;
+    
+}
+
+.my-recipies-width{
+    width:40%;
+}
+
+.recipies-area{
+    width: 80%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.flex-container {
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 100px;
+      
+  }
+.recipies-item img{
+    width:97%;
+    padding-top:10px;
+    
+}
+  .recipies-item{
+    width:27%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 40px rgb(22, 11, 170);
   }
 
-  .aboutme{
-      text-align:end;
+  /* social Media area */
+  .recipies-follwers{
+    width:40%;
+
   }
+
+  .flex-container-followers{
+    display:flex;    
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 40px rgb(22, 11, 170);
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-top: 35px;
+    padding-bottom:30px;
+    
+    font-weight: bold;
+
+  }
+
+/* footer area */
+.flex-footer{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.footer-front {
+   background-color: black;
+   color: white;
+   width:100%;
+   height:30%;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 20px;
+}
+  
