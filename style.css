@@ -5,8 +5,10 @@ body{
   
 }
 #gradient-header {
-    height: 120git px;
+    height: 140px;
     background-image: linear-gradient(red,yellow);
+    
+   
 }
 
 h1{
@@ -21,6 +23,7 @@ hr {
     margin-right: auto;
     border-style:inset;
     border-width: 5px;
+    padding:0;
   }
 
 /* Diet section */
@@ -49,6 +52,7 @@ hr {
     padding-top:10%;
     padding-left: 10%;
     padding-right: 4%;
+    
 }
 
 .share-width img{
@@ -92,6 +96,12 @@ a{
 
 /* recepies section work*/
 
+#recipies{
+    width:51%;
+    text-align: center;
+    justify-content: center;
+    padding-left: 25%;
+}
 .my-recipies{
     display:flex;    
     text-align: center;
@@ -151,6 +161,19 @@ a{
 
   }
 
+  .flex-icons{
+      display: flex;
+      padding-left: 2%;
+      margin-bottom: 100px;
+      justify-content: center;
+  }
+  .icons{
+      width: 30%;
+  }
+
+  .icons img{
+      width: 100%;
+  }
 /* footer area */
 .flex-footer{
     display:flex;
