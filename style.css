@@ -164,15 +164,17 @@ a{
   .flex-icons{
       display: flex;
       padding-left: 2%;
+      padding-right: 2%;
       margin-bottom: 100px;
-      justify-content: center;
+      text-align: center;
+     
   }
   .icons{
       width: 30%;
   }
 
   .icons img{
-      width: 100%;
+      width: 80%;
   }
 /* footer area */
 .flex-footer{
@@ -188,6 +190,6 @@ a{
    height:30%;
    text-align: center;
    padding-top: 5px;
-   padding-bottom: 20px;
+   padding-bottom: 40px;
 }
   
